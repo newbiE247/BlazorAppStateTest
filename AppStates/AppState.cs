@@ -8,6 +8,8 @@ namespace BlazorApp1.AppStates
     public class AppState
     {
         protected List<SortComponentBase> StateMembers { get; set; } = new List<SortComponentBase>();
+        public SortComponentBase ActiveMember { get; private set; } = new SortComponentBase();
+        public event Action OnStateChange;
 
         public void AddStateMember(SortComponentBase member)
         {
@@ -18,6 +20,12 @@ namespace BlazorApp1.AppStates
         {
             var m = StateMembers.Where(m => m == member).First();
             m.IsSortedAscending = !m.IsSortedAscending;
+        }
+
+        public void SetActiveMember(SortComponentBase member)
+        {
+            ActiveMember = member;
+            OnStateChange?.Invoke();
         }
     }
 }

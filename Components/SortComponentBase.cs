@@ -17,6 +17,16 @@ namespace BlazorApp1.Components
         protected void HandleOnClick()
         {
             AppState.ChangeStateOfMember(this);
+            AppState.SetActiveMember(this);
+            AppState.OnStateChange += StateHasChanged;
+        }
+
+        protected string GetButtonClass()
+        {
+            if(AppState.ActiveMember == this)
+                return "btn btn-primary";
+            
+            return "btn btn-secondary";
         }
     }
 }

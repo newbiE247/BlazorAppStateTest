@@ -1,5 +1,6 @@
 ﻿using BlazorApp1.AppStates;
 using Microsoft.AspNetCore.Components;
+using System;
 
 namespace BlazorApp1.Components
 {
@@ -11,6 +12,9 @@ namespace BlazorApp1.Components
 
         protected override void OnInitialized()
         {
+            if (AppState == null)
+                throw new ArgumentNullException("AppState was not initialized.");
+
             AppState.AddStateMember(this);
         }
 

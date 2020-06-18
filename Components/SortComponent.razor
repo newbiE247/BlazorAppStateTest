@@ -1,0 +1,13 @@
+﻿@inherits SortComponentBase
+
+<button type="button" class="btn btn-primary" @onclick="HandleOnClick">
+    @ChildContent
+        @if (IsSortedAscending)
+        {
+            <span class="badge badge-light"><i class="fas fa-angle-up"></i></span>
+        }
+        else
+        {
+            <span class="badge badge-light"><i class="fas fa-angle-down"></i></span>
+        }
+</button>

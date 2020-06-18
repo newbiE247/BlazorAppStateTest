@@ -1,0 +1,17 @@
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\AppStateTest.csprojAssemblyReference.cache
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\AppStateTest.AssemblyInfoInputs.cache
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\AppStateTest.AssemblyInfo.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\AppStateTest.csproj.CoreCompileInputs.cache
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\AppStateTest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\AppStateTest.RazorComponent.input.cache
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\SortComponent.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\SortWithoutAppState.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\Thang\source\repos\BlazorApp1\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs

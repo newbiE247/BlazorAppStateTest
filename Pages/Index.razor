@@ -1,0 +1,13 @@
+﻿@page "/"
+@inherits IndexBase
+
+    <CascadingValue Value="AppState">
+        <SortComponent>Artikelnummer</SortComponent>
+        <SortComponent>Preis</SortComponent>
+        <SortComponent>Variante</SortComponent>
+    </CascadingValue>
+
+<hr />
+
+<SortWithoutAppState>Sort 1</SortWithoutAppState>
+<SortWithoutAppState>Sort 2</SortWithoutAppState>
